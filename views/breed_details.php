@@ -11,6 +11,7 @@
     $breed_life_span = $results[0]->life_span;
     $breed_origin = $results[0]->origin;
     $breed_weight = $results[0]->weight->imperial;
+    $wiki_page = $results[0]->wikipedia_url;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,8 +33,7 @@
         <?php require_once "shared/header.php"; ?>
         <main id="page">
             <?php 
-                echo '<img src="'. $breed_image .'">
-                <div class="card">
+                echo '<div class="container-fluid card detailCard">
                         <h1>' . $breed_name . '</h1>
                         <h2>Alternate Names: ' . $breed_alt_name . '</h2>
                         <div class="card-body">
@@ -42,6 +42,7 @@
                             <p>Life Span: ' . $breed_life_span . ' years</p>
                             <p>Weight: ' . $breed_weight . 'lb</p>
                             <p>Temperament: ' . $breed_temp . '</p>
+                            <a class="btn btn-outline-info" href="' . $wiki_page . '">Checkout Wikipedia Page!</a>
                         </div>
                      </div>'; 
             ?>

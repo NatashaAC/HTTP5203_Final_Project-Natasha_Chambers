@@ -25,6 +25,8 @@
                 $results = json_decode(file_get_contents($url));
 
                 echo $results->text;
+
+                // include "./apis/new_api.php";
             ?>
         </main>
         <?php require_once "shared/footer.php"; ?>

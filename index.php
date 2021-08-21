@@ -17,7 +17,6 @@
     <body>
         <?php require_once "views/shared/header.php"; ?>
         <main id="page">
-            <h1>Cat Information</h1>
             <section>
                 <div id="catSlideShow" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -29,20 +28,40 @@
                     </div>
                     <div class="carousel-inner">
                         <!-- All pictures are from https://www.pexels.com/ -->
-                        <div class="carousel-item">
-                            <img src="images/group_of_cats.jpg" class="d-block w-100" alt="...">
-                        </div>
                         <div class="carousel-item active">
+                            <img src="images/group_of_cats.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h1>Different Breeds!</h1>
+                                <p>Read all about different cat breeds.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
                             <img src="images/cats_sleeping.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h2>Cute Pictures of Cats!</h2>
+                                <p>See what each cat breed looks like.</p>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img src="images/grey_cat_on_bed.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h2>Get More Information from Wikipedia!</h2>
+                                <p>Want more information on a specific cat breed, checkout the wikipedia page.</p>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img src="images/group_of_kittens.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h2>Considering Getting a Cat?</h2>
+                                <p>Read about the perfect cat for you.</p>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img src="images/grey_white_cat.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h2>60 plus Breeds to Read About!</h2>
+                                <p>So many cats to learn about.</p>
+                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#catSlideShow" data-bs-slide="prev">

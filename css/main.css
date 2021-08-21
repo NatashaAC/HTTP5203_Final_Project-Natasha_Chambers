@@ -43,9 +43,18 @@ nav {
     background-color: lavender;
 }
 
+.carousel-caption {
+    background-color: black;
+    opacity: .7;
+}
+
 .card {
     border: 5px solid lavender;
     text-align: center;
+}
+
+.detailCard {
+    margin-top: 25px;
 }
 
 .card-header {
