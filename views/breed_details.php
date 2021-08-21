@@ -40,7 +40,7 @@
                             <p>' . $breed_des . '</p>
                             <p>This cat breed is from ' . $breed_origin . '</p>
                             <p>Life Span: ' . $breed_life_span . ' years</p>
-                            <p>Weight:' . $breed_weight . '</p>
+                            <p>Weight: ' . $breed_weight . 'lb</p>
                             <p>Temperament: ' . $breed_temp . '</p>
                         </div>
                      </div>'; 
