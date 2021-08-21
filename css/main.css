@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    box-sizing: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+nav {
+    background-color: lavender;
+}
+
+.card {
+    border: 5px solid lavender;
+    text-align: center;
+}
+
+.card-header {
+    background-color: lavender;
+}
+
+footer {
+    position: fixed;
+    padding: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: lavender;
+}
